@@ -31,7 +31,7 @@ Menurut saya, jenis data pipeline yang cocok digunakan yaitu batch pipeline meng
 
 ### 2. Berdasarkan soal nomor 1, buat diagram sederhana dari data pipeline yang dipilih. Diagram dapat dibuat dengan draw.io, excalidraw atau tools lainnya yang sejenis.
 **Jawaban :**
-![alt text](<Blank diagram - Page 5.png>)
+![alt text](<../Screenshots/Blank diagram - Page 5.png>)
 
  SUMBER :
  - one.alterra.academy 
