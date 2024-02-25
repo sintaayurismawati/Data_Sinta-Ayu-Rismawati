@@ -20,4 +20,4 @@ Pseudocode adalah deskripsi informal dari algoritma menggunakan bahasa manusia s
 Flowchart merupakan suatu bagan dengan berbagai simbol yang menggambarkan suatu proses.
 
 ## Simbol Flowchart
-![alt text](image.png)
+![alt text](Screenshots/image.png)
