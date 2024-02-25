@@ -34,6 +34,6 @@ Menurut saya, jenis data pipeline yang cocok digunakan yaitu batch pipeline meng
 ![alt text](<Blank diagram - Page 5.png>)
 
  SUMBER :
- one.alterra.academy 
- https://insinyurdata.com/blog/5-manfaat-data-engineering-untuk-bisnis/ 
- Manowon, S., & Boonma, P. (2023). Development of Batch Data Pipeline System for Flight Delay Prediction.
+ - one.alterra.academy 
+ - https://insinyurdata.com/blog/5-manfaat-data-engineering-untuk-bisnis/ 
+ - Manowon, S., & Boonma, P. (2023). Development of Batch Data Pipeline System for Flight Delay Prediction.
