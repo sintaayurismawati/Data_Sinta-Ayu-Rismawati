@@ -10,7 +10,19 @@
 ![alt text](image-3.png)
 
 ## Proritas 2
-- membuat branch baru
-![alt text](image-4.png)
+langkah-langkah yang saya lakukan :
+- membuat branch dev di dalam branch main
+- membuat branch feature1 dan feature2 di dalam branch dev
+- menambahkan file baru pada branch feature1
+![alt text](image-5.png)
 
-- masuk ke branch baru
+- melakukan git pull origin feature1 pada branch dev
+![alt text](image-6.png)
+
+setelahnya akan muncul pesan untuk melakukan pull request seperti berikut :
+![alt text](image-7.png)
+
+- Untuk itu, saya melakukan merge untuk update ke branch main
+![alt text](image-8.png)
+
+branch main telah terupdate

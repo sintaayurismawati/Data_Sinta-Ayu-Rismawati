@@ -54,6 +54,3 @@ Menampilkan, membuat, atau menghapus branch di repositori Anda. Ex : git branch 
 
 #### 15. GIT MERGE
 Menggabungkan perubahan dari branch lain ke branch saat ini. Ex : git merge feature-branch
-
-
-tesssssssssssss
