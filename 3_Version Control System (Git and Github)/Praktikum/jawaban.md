@@ -10,3 +10,7 @@
 ![alt text](image-3.png)
 
 ## Proritas 2
+- membuat branch baru
+![alt text](image-4.png)
+
+- masuk ke branch baru
