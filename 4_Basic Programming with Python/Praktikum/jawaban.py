@@ -1,3 +1,33 @@
+# PRIORITAS 1
+# No.1
+panjnag = input("Masukkan panjang : ")
+lebar = input("Masukkan lebar : ")
+p = int(panjnag)
+l = int(lebar)
+luas = p * l
+if luas % 2 == 0 :
+    print("even rectangle")
+else :
+    print("odd rectangle")
+
+# PRIORITAS 1
+# No.2
+jarijari = input("Masukkan jari-jari : ")
+r = int(jarijari)
+volume = 4/3 * 3.14 * r**3
+print("Volume tabung : ", volume)
+
+# PRIORITAS 1
+# No.3
+for x in range(1, 101) :
+    if x % 3 == 0 and x % 5 == 0 :
+        print("buzz")
+    elif x % 3 == 0 :
+        print(x**2)
+    elif x % 5 == 0 :
+        print(x**3)
+    else :
+        print(x)
 
 # PRIORITAS 2
 # No.2
