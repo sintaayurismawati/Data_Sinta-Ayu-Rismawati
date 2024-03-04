@@ -99,6 +99,10 @@ class Yoga(KelasLatihan):
         super().__init__(nama, spesifikasi, tahunPengalaman, jenisLatihan, jadwal)
         self.__tingkatKesulitan = tingkatKesulitan
 
+    def aturPosisiYoga(self, posisi):
+        self.__tingkatKesulitan = posisi
+        return self.__tingkatKesulitan
+
     def tampilkanInfo(self):
         return super().tampilkanInfo() + "Tingkat Kesulitan : " + self.__tingkatKesulitan
     
@@ -106,6 +110,10 @@ class AngkatBeban(KelasLatihan):
     def __init__(self, nama, spesifikasi, tahunPengalaman, jenisLatihan, jadwal, beratMaksimun):
         super().__init__(nama, spesifikasi, tahunPengalaman, jenisLatihan, jadwal)
         self.__beratMaksimun = beratMaksimun
+
+    def aturBeratBeban(self, berat) :
+        self.__beratMaksimun = berat
+        return self.__beratMaksimun        
 
     def tampilkanInfo(self):
         return super().tampilkanInfo() + "Berat Maksimum : " + str(self.__beratMaksimun) + " Kg"
@@ -120,3 +128,17 @@ print("------------------")
 for kelas_latihan in daftarKelas:
     print(kelas_latihan.tampilkanInfo())
     print("")
+
+# EKSPLORASI
+    print("============================")
+    yoga1 = Yoga("Nasywa", "Instruktur berbakat", 3, "Yoga", "Everyday", "high")
+    print(yoga1.tampilkanInfo())
+    print(".")
+    yoga1.aturPosisiYoga("hard")
+    print(yoga1.tampilkanInfo())
+    print("============================")
+    angkatBeban1 = AngkatBeban("Zahira", "Kuat", 4, "Angkat beban" ,"Selasa, Rabu", "midle")
+    print(angkatBeban1.tampilkanInfo())
+    print(".")
+    angkatBeban1.aturBeratBeban(8)
+    print(angkatBeban1.tampilkanInfo())
