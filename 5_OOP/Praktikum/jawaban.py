@@ -81,7 +81,7 @@ class KelasLatihan(Pelatih):
             return f"Anda belum memesan kelas {self.__jenisLatihan}."
 
     def tampilkanInfo(self):
-        return super().tampilkanInfo() + "\nJenis Latihan : " + self.__jenisLatihan + "\nJadwal : " + self.__jadwal + "\nStatus : " + str(self.__terpesan)
+        return super().tampilkanInfo() + "\nJenis Latihan : " + self.__jenisLatihan + "\nJadwal : " + self.__jadwal + "\nTerpesan : " + str(self.__terpesan)
     
 pelanggan1 = Pelanggan("Sinta", 20, "RF1906")
 pelanggan2 = Pelanggan("Ayu", 21, "RF2003")
