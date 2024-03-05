@@ -64,9 +64,24 @@ class KelasLatihan(Pelatih):
         super().__init__(nama, spesifikasi, tahunPengalaman)
         self.__jenisLatihan = jenisLatihan
         self.__jadwal = jadwal
+        self.__terpesan = False
+
+    def pesanKelas(self):
+        if not self.__terpesan:
+            self.__terpesan = True
+            return f"Kelas {self.__jenisLatihan} berhasil dipesan."
+        else:
+            return f"Kelas {self.__jenisLatihan} sudah dipesan sebelumnya."
+
+    def batalkanKelas(self):
+        if self.__terpesan:
+            self.__terpesan = False
+            return f"Kelas {self.__jenisLatihan} berhasil dibatalkan."
+        else:
+            return f"Anda belum memesan kelas {self.__jenisLatihan}."
 
     def tampilkanInfo(self):
-        return super().tampilkanInfo() + "\nJenis Latihan : " + self.__jenisLatihan + "\nJadwal : " + self.__jadwal
+        return super().tampilkanInfo() + "\nJenis Latihan : " + self.__jenisLatihan + "\nJadwal : " + self.__jadwal + "\nStatus : " + str(self.__terpesan)
     
 pelanggan1 = Pelanggan("Sinta", 20, "RF1906")
 pelanggan2 = Pelanggan("Ayu", 21, "RF2003")
@@ -102,9 +117,15 @@ class Yoga(KelasLatihan):
     def aturPosisiYoga(self, posisi):
         self.__tingkatKesulitan = posisi
         return self.__tingkatKesulitan
-
+    
+    def pesanKelas(self):
+        return super().pesanKelas() + ", Jadwal : " + self._KelasLatihan__jadwal
+    
+    def batalkanKelas(self):
+        return super().batalkanKelas() 
+        
     def tampilkanInfo(self):
-        return super().tampilkanInfo() + "Tingkat Kesulitan : " + self.__tingkatKesulitan
+        return super().tampilkanInfo() + "\nTingkat Kesulitan : " + self.__tingkatKesulitan
     
 class AngkatBeban(KelasLatihan):
     def __init__(self, nama, spesifikasi, tahunPengalaman, jenisLatihan, jadwal, beratMaksimun):
@@ -114,9 +135,15 @@ class AngkatBeban(KelasLatihan):
     def aturBeratBeban(self, berat) :
         self.__beratMaksimun = berat
         return self.__beratMaksimun        
-
+    
+    def pesanKelas(self):
+        return super().pesanKelas() + ", Jadwal : " + self._KelasLatihan__jadwal
+    
+    def batalkanKelas(self):
+        return super().batalkanKelas() 
+        
     def tampilkanInfo(self):
-        return super().tampilkanInfo() + "Berat Maksimum : " + str(self.__beratMaksimun) + " Kg"
+        return super().tampilkanInfo() + "\nBerat Maksimum : " + str(self.__beratMaksimun) + " Kg"
     
 daftarKelas = [
     Yoga("Lina", "Instruktur berbakat", 3, "Yoga", "Everyday", "high"),
@@ -129,16 +156,29 @@ for kelas_latihan in daftarKelas:
     print(kelas_latihan.tampilkanInfo())
     print("")
 
-# EKSPLORASI
-    print("============================")
-    yoga1 = Yoga("Nasywa", "Instruktur berbakat", 3, "Yoga", "Everyday", "high")
-    print(yoga1.tampilkanInfo())
-    print(".")
-    yoga1.aturPosisiYoga("hard")
-    print(yoga1.tampilkanInfo())
-    print("============================")
-    angkatBeban1 = AngkatBeban("Zahira", "Kuat", 4, "Angkat beban" ,"Selasa, Rabu", "midle")
-    print(angkatBeban1.tampilkanInfo())
-    print(".")
-    angkatBeban1.aturBeratBeban(8)
-    print(angkatBeban1.tampilkanInfo())
+print("============================")
+yoga1 = Yoga("Nasywa", "Instruktur berbakat", 3, "Yoga", "Everyday", "high")
+print(yoga1.tampilkanInfo())
+print(".")
+yoga1.aturPosisiYoga("hard")
+print(yoga1.tampilkanInfo())
+print("============================")
+angkatBeban1 = AngkatBeban("Zahira", "Kuat", 4, "Angkat beban" ,"Selasa, Rabu", "midle")
+print(angkatBeban1.tampilkanInfo())
+print(".")
+angkatBeban1.aturBeratBeban(8)
+print(angkatBeban1.tampilkanInfo())
+print("................................................................")
+
+# Eksplorasi
+yoga1.pesanKelas()
+print(yoga1.tampilkanInfo())
+print(".................")
+yoga1.batalkanKelas()
+print(yoga1.tampilkanInfo())
+print(":::::::::::::::::::::::::::::::::::::::::::")
+angkatBeban1.pesanKelas()
+print(angkatBeban1.tampilkanInfo())
+print(".................")
+angkatBeban1.batalkanKelas()
+print(angkatBeban1.tampilkanInfo())
