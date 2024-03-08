@@ -82,7 +82,8 @@ class KelasLatihan(Pelatih):
 
     def tampilkanInfo(self):
         return super().tampilkanInfo() + "\nJenis Latihan : " + self.__jenisLatihan + "\nJadwal : " + self.__jadwal + "\nTerpesan : " + str(self.__terpesan)
-    
+
+# DEMONSTRASI
 pelanggan1 = Pelanggan("Sinta", 20, "RF1906")
 pelanggan2 = Pelanggan("Ayu", 21, "RF2003")
 pelatihBadminton = Pelatih("Rakha", "Pro Atlet", 5)
@@ -144,7 +145,8 @@ class AngkatBeban(KelasLatihan):
         
     def tampilkanInfo(self):
         return super().tampilkanInfo() + "\nBerat Maksimum : " + str(self.__beratMaksimun) + " Kg"
-    
+
+# DEMONSTRASI
 daftarKelas = [
     Yoga("Lina", "Instruktur berbakat", 3, "Yoga", "Everyday", "high"),
     AngkatBeban("Cintya", "Kuat", 4, "Angkat beban" ,"Selasa, Rabu", "midle")
@@ -170,7 +172,7 @@ angkatBeban1.aturBeratBeban(8)
 print(angkatBeban1.tampilkanInfo())
 print("................................................................")
 
-# Eksplorasi
+# Eksplorasi (Demonstrasi)
 yoga1.pesanKelas()
 print(yoga1.tampilkanInfo())
 print(".................")
