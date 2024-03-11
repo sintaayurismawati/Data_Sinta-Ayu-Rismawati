@@ -1,4 +1,5 @@
 # No.1
+print("NO.1")
 def group_numbers(numbers, target) :
     kelipatan = []
     bukanKelipatan = []
@@ -15,6 +16,7 @@ print(group_numbers([1,2,3,4,5,6,7,8,9],3))
 print(group_numbers([23,15,19,20,75,30,45],5))
 
 # No.2
+print("\nNO.2")
 def get_breads(breads, flour_stock) :
     breads_used = []
     flour_used = 0
