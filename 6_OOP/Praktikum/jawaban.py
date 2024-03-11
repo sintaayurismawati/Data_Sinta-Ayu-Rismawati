@@ -66,6 +66,7 @@ class KelasLatihan(Pelatih):
         self.__jadwal = jadwal
         self.__terpesan = False
 
+    # eksplorasi
     def pesanKelas(self):
         if not self.__terpesan:
             self.__terpesan = True
@@ -173,6 +174,7 @@ print(angkatBeban1.tampilkanInfo())
 print("................................................................")
 
 # Eksplorasi (Demonstrasi)
+print("Eksplorasi")
 yoga1.pesanKelas()
 print(yoga1.tampilkanInfo())
 print(".................")
