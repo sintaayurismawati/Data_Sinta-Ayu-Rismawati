@@ -18,11 +18,11 @@
 ![alt text](DDL(6).jpg)
 
 ## 7. Silahkan menambahkan entity baru dengan relation 1-to-1, 1-to-many, many-to-many. Seperti:
-    ### a.) 1-to-1: payment method description.
+    ### a. 1-to-1: payment method description.
     ![alt text](DDL(7-a).jpg)
 
-    ### b.) 1-to-many: user dengan alamat.
+    ### b. 1-to-many: user dengan alamat.
     ![alt text](image.png)
 
-    ### c.) many-to-many: user dengan payment method menjadi user_payment_method_detail.
+    ### c. many-to-many: user dengan payment method menjadi user_payment_method_detail.
     ![alt text](DDL(7-c).jpg)
