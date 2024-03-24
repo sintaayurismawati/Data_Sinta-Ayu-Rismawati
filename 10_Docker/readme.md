@@ -20,7 +20,7 @@ SUMMARY - DOCKER
 3. **docker run**, untuk menjalankan sebuah container
 
 ### Langkah penggunaan docker
-1.) Menyiapkan dockerfile
-2.) Membuat docker images
-3.) Publish images ke docker hub (image repository)
-4.) Pull docker image hingga image masuk ke docker host sehingga aplikasi bisa dijalankan
+1. Menyiapkan dockerfile
+2. Membuat docker images
+3. Publish images ke docker hub (image repository)
+4. Pull docker image hingga image masuk ke docker host sehingga aplikasi bisa dijalankan
