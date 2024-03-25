@@ -24,3 +24,25 @@ SUMMARY - DOCKER
 2. Membuat docker images
 3. Publish images ke docker hub (image repository)
 4. Pull docker image hingga image masuk ke docker host sehingga aplikasi bisa dijalankan
+
+### Docker Volume
+- Sebuah mekanismer penyimpanan data yang dapat digunakan agar data tetap ada (persistent)
+- Manfaat :
+1. Backup dan migrasi lebih mudah
+2. Dapat dibagi lebih aman dengan container lain
+3. Menambahkan fungsionalitas lain
+
+### Docker Network
+Sebuah jaringan yang dapat digunakan antar container untuk berkomunikasi satu sama lain
+
+### Docker Orchestration 
+- Sebuah mekanisme untuk mengelola berbagai container
+- Cocok digunakan untuk mengelola sistem yang dibagun dengan berbagai contaier seperti microservices
+- Tools :
+    1. Docker Compose 
+        * Sebuah container orchestration yang sudah disediakan oleh docker
+        * Dapat digunakan untuk menjalankan berbagai container dengan membuat file konfigurasi dalam format YAML
+        
+    2. Docker Swarm
+    3. Kubernetes
+    4. Red Hat OpenShift
