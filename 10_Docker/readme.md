@@ -28,9 +28,9 @@ SUMMARY - DOCKER
 ### Docker Volume
 - Sebuah mekanismer penyimpanan data yang dapat digunakan agar data tetap ada (persistent)
 - Manfaat :
-1. Backup dan migrasi lebih mudah
+1. Backup dan migrasi lebih mudah, sehingga ketika sebuah container dihapus, data pada container tersebut akan di backup dan dapat digunakan di container lain.
 2. Dapat dibagi lebih aman dengan container lain
-3. Menambahkan fungsionalitas lain
+3. Menambahkan fungsionalitas lain (ex : mekanisme enskripsi, perlu menjalankan code tertentu saat container dijalankan seperti inisialisasi database)
 
 ### Docker Network
 Sebuah jaringan yang dapat digunakan antar container untuk berkomunikasi satu sama lain
@@ -42,7 +42,7 @@ Sebuah jaringan yang dapat digunakan antar container untuk berkomunikasi satu sa
     1. Docker Compose 
         * Sebuah container orchestration yang sudah disediakan oleh docker
         * Dapat digunakan untuk menjalankan berbagai container dengan membuat file konfigurasi dalam format YAML
-        
+
     2. Docker Swarm
     3. Kubernetes
     4. Red Hat OpenShift
