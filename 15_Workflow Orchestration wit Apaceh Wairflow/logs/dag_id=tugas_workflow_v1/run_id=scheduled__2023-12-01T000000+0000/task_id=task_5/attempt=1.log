@@ -1,0 +1,22 @@
+[2024-05-14T05:27:50.390+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-14T05:27:50.485+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tugas_workflow_v1.task_5 scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2024-05-14T05:27:50.515+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tugas_workflow_v1.task_5 scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2024-05-14T05:27:50.518+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2024-05-14T05:27:50.557+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): task_5> on 2023-12-01 00:00:00+00:00
+[2024-05-14T05:27:50.579+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=3149) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-14T05:27:50.582+0000] {standard_task_runner.py:63} INFO - Started process 3193 to run task
+[2024-05-14T05:27:50.587+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'tugas_workflow_v1', 'task_5', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '577', '--raw', '--subdir', 'DAGS_FOLDER/__pycache__/prioritas_1.py', '--cfg-path', '/tmp/tmp5ubxplpl']
+[2024-05-14T05:27:50.591+0000] {standard_task_runner.py:91} INFO - Job 577: Subtask task_5
+[2024-05-14T05:27:50.843+0000] {task_command.py:426} INFO - Running <TaskInstance: tugas_workflow_v1.task_5 scheduled__2023-12-01T00:00:00+00:00 [running]> on host 0391a550332e
+[2024-05-14T05:27:51.222+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sinta' AIRFLOW_CTX_DAG_ID='tugas_workflow_v1' AIRFLOW_CTX_TASK_ID='task_5' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2024-05-14T05:27:51.228+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-14T05:27:51.234+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-05-14T05:27:51.247+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'mkdir -p our_works && touch our_works/works.txt']
+[2024-05-14T05:27:51.274+0000] {subprocess.py:86} INFO - Output:
+[2024-05-14T05:27:51.281+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-05-14T05:27:51.294+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-14T05:27:51.395+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=tugas_workflow_v1, task_id=task_5, run_id=scheduled__2023-12-01T00:00:00+00:00, execution_date=20231201T000000, start_date=20240514T052750, end_date=20240514T052751
+[2024-05-14T05:27:51.469+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-14T05:27:51.557+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,20 @@
+[2024-05-14T04:35:45.966+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-14T04:35:45.988+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_numbers_workflow.calculate_sum scheduled__2024-05-13T00:00:00+00:00 [queued]>
+[2024-05-14T04:35:45.997+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_numbers_workflow.calculate_sum scheduled__2024-05-13T00:00:00+00:00 [queued]>
+[2024-05-14T04:35:45.999+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2024-05-14T04:35:46.013+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): calculate_sum> on 2024-05-13 00:00:00+00:00
+[2024-05-14T04:35:46.021+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=191) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-14T04:35:46.024+0000] {standard_task_runner.py:63} INFO - Started process 193 to run task
+[2024-05-14T04:35:46.024+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'random_numbers_workflow', 'calculate_sum', 'scheduled__2024-05-13T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/prioritas_2.py', '--cfg-path', '/tmp/tmp89tfvfvl']
+[2024-05-14T04:35:46.026+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask calculate_sum
+[2024-05-14T04:35:46.077+0000] {task_command.py:426} INFO - Running <TaskInstance: random_numbers_workflow.calculate_sum scheduled__2024-05-13T00:00:00+00:00 [running]> on host 0391a550332e
+[2024-05-14T04:35:46.170+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sinta' AIRFLOW_CTX_DAG_ID='random_numbers_workflow' AIRFLOW_CTX_TASK_ID='calculate_sum' AIRFLOW_CTX_EXECUTION_DATE='2024-05-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-13T00:00:00+00:00'
+[2024-05-14T04:35:46.172+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-14T04:35:46.198+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-14T04:35:46.199+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-14T04:35:46.208+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=random_numbers_workflow, task_id=calculate_sum, run_id=scheduled__2024-05-13T00:00:00+00:00, execution_date=20240513T000000, start_date=20240514T043545, end_date=20240514T043546
+[2024-05-14T04:35:46.238+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-14T04:35:46.260+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-05-14T04:35:46.263+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

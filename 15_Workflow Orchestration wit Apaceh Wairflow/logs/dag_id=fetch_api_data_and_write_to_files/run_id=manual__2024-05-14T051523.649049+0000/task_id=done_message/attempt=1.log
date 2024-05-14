@@ -1,0 +1,24 @@
+[2024-05-14T05:15:32.043+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-14T05:15:32.072+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_api_data_and_write_to_files.done_message manual__2024-05-14T05:15:23.649049+00:00 [queued]>
+[2024-05-14T05:15:32.082+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_api_data_and_write_to_files.done_message manual__2024-05-14T05:15:23.649049+00:00 [queued]>
+[2024-05-14T05:15:32.083+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2024-05-14T05:15:32.101+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): done_message> on 2024-05-14 05:15:23.649049+00:00
+[2024-05-14T05:15:32.111+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=1578) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-14T05:15:32.115+0000] {standard_task_runner.py:63} INFO - Started process 1581 to run task
+[2024-05-14T05:15:32.116+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fetch_api_data_and_write_to_files', 'done_message', 'manual__2024-05-14T05:15:23.649049+00:00', '--job-id', '227', '--raw', '--subdir', 'DAGS_FOLDER/prioritas_2.py', '--cfg-path', '/tmp/tmp7m4zhs2g']
+[2024-05-14T05:15:32.118+0000] {standard_task_runner.py:91} INFO - Job 227: Subtask done_message
+[2024-05-14T05:15:32.174+0000] {task_command.py:426} INFO - Running <TaskInstance: fetch_api_data_and_write_to_files.done_message manual__2024-05-14T05:15:23.649049+00:00 [running]> on host 0391a550332e
+[2024-05-14T05:15:32.263+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sinta' AIRFLOW_CTX_DAG_ID='fetch_api_data_and_write_to_files' AIRFLOW_CTX_TASK_ID='done_message' AIRFLOW_CTX_EXECUTION_DATE='2024-05-14T05:15:23.649049+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-14T05:15:23.649049+00:00'
+[2024-05-14T05:15:32.266+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-14T05:15:32.267+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-05-14T05:15:32.268+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "done!"']
+[2024-05-14T05:15:32.283+0000] {subprocess.py:86} INFO - Output:
+[2024-05-14T05:15:32.285+0000] {subprocess.py:93} INFO - done!
+[2024-05-14T05:15:32.286+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-05-14T05:15:32.286+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-14T05:15:32.310+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=fetch_api_data_and_write_to_files, task_id=done_message, run_id=manual__2024-05-14T05:15:23.649049+00:00, execution_date=20240514T051523, start_date=20240514T051532, end_date=20240514T051532
+[2024-05-14T05:15:32.370+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-14T05:15:32.386+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-14T05:15:32.389+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

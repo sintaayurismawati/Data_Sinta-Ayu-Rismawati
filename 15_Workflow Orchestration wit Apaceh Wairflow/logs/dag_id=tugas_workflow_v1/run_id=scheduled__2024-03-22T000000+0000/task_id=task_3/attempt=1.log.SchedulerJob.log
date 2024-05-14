@@ -1,0 +1,2 @@
+[2024-05-14T06:07:53.237+0000] {task_context_logger.py:104} WARNING - Marking task instance <TaskInstance: tugas_workflow_v1.task_3 scheduled__2024-03-22T00:00:00+00:00 [queued]> stuck in queued as failed. If the task instance has available retries, it will be retried.
+[2024-05-14T06:07:56.660+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: tugas_workflow_v1.task_3 scheduled__2024-03-22T00:00:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

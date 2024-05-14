@@ -1,0 +1,24 @@
+[2024-05-14T04:30:02.671+0000] {processor.py:161} INFO - Started process (PID=611) to work on /opt/airflow/dags/prioritas_1.py
+[2024-05-14T04:30:02.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_1.py for tasks to queue
+[2024-05-14T04:30:02.675+0000] {logging_mixin.py:188} INFO - [2024-05-14T04:30:02.675+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_1.py
+[2024-05-14T04:30:02.699+0000] {processor.py:840} INFO - DAG(s) 'tugas_workflow_v1' retrieved from /opt/airflow/dags/prioritas_1.py
+[2024-05-14T04:30:02.820+0000] {logging_mixin.py:188} INFO - [2024-05-14T04:30:02.819+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:tugas_workflow_v1
+[2024-05-14T04:30:02.832+0000] {logging_mixin.py:188} INFO - [2024-05-14T04:30:02.832+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:tugas_workflow_v1
+[2024-05-14T04:30:02.840+0000] {logging_mixin.py:188} INFO - [2024-05-14T04:30:02.840+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:tugas_workflow_v1
+[2024-05-14T04:30:02.841+0000] {logging_mixin.py:188} INFO - [2024-05-14T04:30:02.841+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-14T04:30:02.856+0000] {logging_mixin.py:188} INFO - [2024-05-14T04:30:02.856+0000] {dag.py:3118} INFO - Creating ORM DAG for tugas_workflow_v1
+[2024-05-14T04:30:02.872+0000] {logging_mixin.py:188} INFO - [2024-05-14T04:30:02.872+0000] {dag.py:3954} INFO - Setting next_dagrun for tugas_workflow_v1 to 2023-10-22 00:00:00+00:00, run_after=2023-10-23 00:00:00+00:00
+[2024-05-14T04:30:02.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_1.py took 0.227 seconds
+[2024-05-14T04:30:33.085+0000] {processor.py:161} INFO - Started process (PID=670) to work on /opt/airflow/dags/prioritas_1.py
+[2024-05-14T04:30:33.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_1.py for tasks to queue
+[2024-05-14T04:30:33.089+0000] {logging_mixin.py:188} INFO - [2024-05-14T04:30:33.089+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_1.py
+[2024-05-14T04:30:33.120+0000] {processor.py:840} INFO - DAG(s) 'tugas_workflow_v1' retrieved from /opt/airflow/dags/prioritas_1.py
+[2024-05-14T04:30:33.150+0000] {logging_mixin.py:188} INFO - [2024-05-14T04:30:33.149+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-14T04:30:33.180+0000] {logging_mixin.py:188} INFO - [2024-05-14T04:30:33.180+0000] {dag.py:3954} INFO - Setting next_dagrun for tugas_workflow_v1 to 2023-10-22 00:00:00+00:00, run_after=2023-10-23 00:00:00+00:00
+[2024-05-14T04:30:33.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_1.py took 0.127 seconds
+[2024-05-14T06:17:33.397+0000] {processor.py:161} INFO - Started process (PID=11262) to work on /opt/airflow/dags/prioritas_1.py
+[2024-05-14T06:17:33.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_1.py for tasks to queue
+[2024-05-14T06:17:33.403+0000] {logging_mixin.py:188} INFO - [2024-05-14T06:17:33.402+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_1.py
+[2024-05-14T06:17:33.461+0000] {processor.py:840} INFO - DAG(s) 'tugas_workflow_v1' retrieved from /opt/airflow/dags/prioritas_1.py
+[2024-05-14T06:17:33.713+0000] {logging_mixin.py:188} INFO - [2024-05-14T06:17:33.713+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-14T06:17:33.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_1.py took 0.520 seconds
