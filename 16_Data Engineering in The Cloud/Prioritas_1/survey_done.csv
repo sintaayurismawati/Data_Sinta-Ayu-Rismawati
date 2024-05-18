@@ -1,0 +1,13 @@
+,name,age,favorite_front_end,favorite_back_end,salary_per_year_in_USD,company_type
+0,John Doe,19,JavaScript,Node.js,26000 - 40000,software house
+1,Jane Smith,31-40,React,Java,more than 60000,fintech
+2,Alice Johnson,17-20,HTML/CSS,Python,10000 - 25000,freelance
+3,Bob Williams,26-30,Angular,PHP,41000 - 60000,software house
+13,Mia Green,26-30,Angular,Java,10000 - 25000,government
+14,Liam Harris,31-40,HTML/CSS,PHP,more than 60000,software house
+15,Olivia Robinson,17-20,React,Node.js,26000 - 40000,freelance
+16,Noah Rodriguez,21-25,Vue.js,Python,41000 - 60000,software house
+18,Aiden Martinez,31-40,Angular,C#,more than 60000,fintech
+19,Ava Walker,17-20,JavaScript,PHP,26000 - 40000,software house
+21,Chloe Turner,26-30,HTML/CSS,Python,10000 - 25000,freelance
+22,Liam Harris,31-40,Angular,Java,more than 60000,software house
