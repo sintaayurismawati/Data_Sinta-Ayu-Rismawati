@@ -1,0 +1,490 @@
+[2024-05-20T08:30:11.539+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:30:11.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:30:11.583+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:30:11.582+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:30:11.731+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:30:12.058+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:30:12.057+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:30:12.241+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:30:12.241+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:30:12.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.974 seconds
+[2024-05-20T08:30:56.590+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:30:56.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:30:56.620+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:30:56.620+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:30:56.872+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:30:56.946+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:30:56.946+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:30:57.080+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:30:57.080+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:30:57.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.887 seconds
+[2024-05-20T08:31:53.135+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:31:53.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:31:53.149+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:31:53.149+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:31:53.202+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:31:53.290+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:31:53.290+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:31:53.368+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:31:53.367+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:31:53.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.290 seconds
+[2024-05-20T08:32:23.705+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:32:23.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:32:23.708+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:32:23.708+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:32:23.728+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:32:23.751+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:32:23.751+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:32:23.773+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:32:23.773+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:32:23.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.119 seconds
+[2024-05-20T08:32:54.113+0000] {processor.py:161} INFO - Started process (PID=313) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:32:54.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:32:54.125+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:32:54.123+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:32:54.173+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:32:54.251+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:32:54.251+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:32:54.327+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:32:54.326+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:32:54.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.308 seconds
+[2024-05-20T08:33:24.661+0000] {processor.py:161} INFO - Started process (PID=374) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:33:24.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:33:24.684+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:33:24.679+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:33:25.677+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:33:25.850+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:33:25.850+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:33:26.012+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:33:26.012+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:33:26.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 1.506 seconds
+[2024-05-20T08:33:56.463+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:33:56.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:33:56.467+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:33:56.466+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:33:56.489+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:33:56.517+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:33:56.517+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:33:56.547+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:33:56.546+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:33:56.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.117 seconds
+[2024-05-20T08:34:27.059+0000] {processor.py:161} INFO - Started process (PID=496) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:34:27.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:34:27.063+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:34:27.062+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:34:27.084+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:34:27.111+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:34:27.111+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:34:27.143+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:34:27.143+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:34:27.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.124 seconds
+[2024-05-20T08:34:57.347+0000] {processor.py:161} INFO - Started process (PID=556) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:34:57.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:34:57.352+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:34:57.351+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:34:57.378+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:34:57.404+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:34:57.404+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:34:57.436+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:34:57.435+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:34:57.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.126 seconds
+[2024-05-20T08:35:28.023+0000] {processor.py:161} INFO - Started process (PID=618) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:35:28.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:35:28.028+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:35:28.027+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:35:28.054+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:35:28.082+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:35:28.081+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:35:28.117+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:35:28.116+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:35:28.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.136 seconds
+[2024-05-20T08:35:58.256+0000] {processor.py:161} INFO - Started process (PID=679) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:35:58.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:35:58.262+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:35:58.261+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:35:58.294+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:35:58.330+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:35:58.329+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:35:58.375+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:35:58.374+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:35:58.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.173 seconds
+[2024-05-20T08:36:28.570+0000] {processor.py:161} INFO - Started process (PID=740) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:36:28.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:36:28.576+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:36:28.576+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:36:28.611+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:36:28.651+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:36:28.650+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:36:28.705+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:36:28.705+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:36:28.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.233 seconds
+[2024-05-20T08:36:58.842+0000] {processor.py:161} INFO - Started process (PID=801) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:36:58.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:36:58.847+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:36:58.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:36:58.873+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:36:58.899+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:36:58.899+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:36:58.930+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:36:58.929+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:36:58.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.119 seconds
+[2024-05-20T08:37:29.144+0000] {processor.py:161} INFO - Started process (PID=862) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:37:29.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:37:29.147+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:37:29.147+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:37:29.163+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:37:29.184+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:37:29.184+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:37:29.213+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:37:29.213+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:37:29.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.101 seconds
+[2024-05-20T08:37:59.422+0000] {processor.py:161} INFO - Started process (PID=923) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:37:59.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:37:59.425+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:37:59.425+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:37:59.441+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:37:59.462+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:37:59.461+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:37:59.484+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:37:59.484+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:37:59.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.096 seconds
+[2024-05-20T08:38:29.594+0000] {processor.py:161} INFO - Started process (PID=984) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:38:29.596+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:38:29.598+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:38:29.598+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:38:29.621+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:38:29.653+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:38:29.652+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:38:29.684+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:38:29.683+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:38:29.710+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.125 seconds
+[2024-05-20T08:39:00.147+0000] {processor.py:161} INFO - Started process (PID=1043) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:39:00.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:39:00.151+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:39:00.150+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:39:00.165+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:39:00.184+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:39:00.184+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:39:00.206+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:39:00.206+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:39:00.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.089 seconds
+[2024-05-20T08:39:30.459+0000] {processor.py:161} INFO - Started process (PID=1104) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:39:30.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:39:30.464+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:39:30.463+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:39:30.486+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:39:30.518+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:39:30.518+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:39:30.553+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:39:30.553+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:39:30.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.132 seconds
+[2024-05-20T08:40:01.384+0000] {processor.py:161} INFO - Started process (PID=1165) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:40:01.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:40:01.388+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:01.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:40:01.409+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:40:01.435+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:01.435+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:40:01.462+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:01.462+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:40:01.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.114 seconds
+[2024-05-20T08:40:31.613+0000] {processor.py:161} INFO - Started process (PID=1231) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:40:31.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:40:31.618+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:31.618+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:40:31.635+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:40:31.658+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:31.658+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:40:31.691+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:31.690+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:40:31.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.156 seconds
+[2024-05-20T08:41:02.012+0000] {processor.py:161} INFO - Started process (PID=1294) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:41:02.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:41:02.015+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:41:02.015+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:41:02.036+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:41:02.058+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:41:02.057+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:41:02.082+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:41:02.082+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:41:02.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.106 seconds
+[2024-05-20T08:41:32.455+0000] {processor.py:161} INFO - Started process (PID=1357) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:41:32.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:41:32.457+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:41:32.456+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:41:32.475+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:41:32.494+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:41:32.494+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:41:32.517+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:41:32.517+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:41:32.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.091 seconds
+[2024-05-20T08:42:03.286+0000] {processor.py:161} INFO - Started process (PID=1419) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:42:03.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:42:03.288+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:42:03.287+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:42:03.306+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:42:03.330+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:42:03.330+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:42:03.356+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:42:03.356+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:42:03.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.103 seconds
+[2024-05-20T08:42:33.559+0000] {processor.py:161} INFO - Started process (PID=1480) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:42:33.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:42:33.562+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:42:33.561+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:42:33.577+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:42:33.599+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:42:33.598+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:42:33.631+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:42:33.631+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:42:33.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.103 seconds
+[2024-05-20T08:43:04.451+0000] {processor.py:161} INFO - Started process (PID=1541) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:43:04.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:43:04.455+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:43:04.454+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:43:04.503+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:43:04.548+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:43:04.548+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:43:04.593+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:43:04.592+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:43:04.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.356 seconds
+[2024-05-20T08:43:35.036+0000] {processor.py:161} INFO - Started process (PID=1602) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:43:35.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:43:35.038+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:43:35.038+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:43:35.058+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:43:35.080+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:43:35.079+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:43:35.104+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:43:35.104+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:43:35.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.237 seconds
+[2024-05-20T08:44:05.657+0000] {processor.py:161} INFO - Started process (PID=1662) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:44:05.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:44:05.660+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:44:05.659+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:44:05.679+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:44:05.700+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:44:05.699+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:44:05.727+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:44:05.726+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:44:05.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.100 seconds
+[2024-05-20T08:44:36.286+0000] {processor.py:161} INFO - Started process (PID=1723) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:44:36.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:44:36.289+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:44:36.289+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:44:36.305+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:44:36.326+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:44:36.326+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:44:36.353+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:44:36.353+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:44:36.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.103 seconds
+[2024-05-20T08:45:06.490+0000] {processor.py:161} INFO - Started process (PID=1784) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:45:06.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:45:06.493+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:06.492+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:45:06.510+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:45:06.533+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:06.532+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:45:06.559+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:06.559+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:45:06.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.099 seconds
+[2024-05-20T08:45:37.028+0000] {processor.py:161} INFO - Started process (PID=1847) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:45:37.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:45:37.030+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:37.029+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:45:37.045+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:45:37.064+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:37.064+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:45:37.086+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:37.085+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:45:37.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.086 seconds
+[2024-05-20T08:46:07.854+0000] {processor.py:161} INFO - Started process (PID=1914) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:46:07.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:46:07.856+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:07.856+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:46:07.875+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:46:07.898+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:07.897+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:46:07.925+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:07.924+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:46:07.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.106 seconds
+[2024-05-20T08:46:38.347+0000] {processor.py:161} INFO - Started process (PID=1976) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:46:38.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:46:38.349+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:38.349+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:46:38.368+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:46:38.386+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:38.386+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:46:38.407+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:38.407+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:46:38.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.088 seconds
+[2024-05-20T08:47:09.295+0000] {processor.py:161} INFO - Started process (PID=2037) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:47:09.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:47:09.303+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:47:09.302+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:47:09.372+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:47:09.461+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:47:09.461+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:47:09.544+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:47:09.544+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:47:09.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.379 seconds
+[2024-05-20T08:47:40.228+0000] {processor.py:161} INFO - Started process (PID=2098) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:47:40.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:47:40.230+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:47:40.230+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:47:40.274+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:47:40.306+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:47:40.305+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:47:40.331+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:47:40.331+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:47:40.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.155 seconds
+[2024-05-20T08:48:10.466+0000] {processor.py:161} INFO - Started process (PID=2159) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:48:10.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:48:10.469+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:48:10.468+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:48:10.488+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:48:10.530+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:48:10.530+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:48:10.557+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:48:10.556+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:48:10.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.181 seconds
+[2024-05-20T08:48:41.477+0000] {processor.py:161} INFO - Started process (PID=2220) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:48:41.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:48:41.481+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:48:41.480+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:48:41.510+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:48:41.542+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:48:41.541+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:48:41.580+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:48:41.580+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:48:41.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.164 seconds
+[2024-05-20T08:49:11.907+0000] {processor.py:161} INFO - Started process (PID=2281) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:49:11.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:49:11.910+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:49:11.910+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:49:11.935+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:49:11.959+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:49:11.959+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:49:11.993+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:49:11.992+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:49:12.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.153 seconds
+[2024-05-20T08:49:42.517+0000] {processor.py:161} INFO - Started process (PID=2342) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:49:42.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:49:42.520+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:49:42.519+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:49:42.539+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:49:42.563+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:49:42.563+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:49:42.590+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:49:42.590+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:49:42.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.108 seconds
+[2024-05-20T08:50:12.688+0000] {processor.py:161} INFO - Started process (PID=2404) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:50:12.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:50:12.690+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:50:12.690+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:50:12.705+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:50:12.723+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:50:12.723+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:50:12.745+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:50:12.745+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:50:12.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.084 seconds
+[2024-05-20T08:50:42.971+0000] {processor.py:161} INFO - Started process (PID=2463) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:50:42.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:50:42.974+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:50:42.974+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:50:43.000+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:50:43.032+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:50:43.031+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:50:43.076+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:50:43.075+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:50:43.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.145 seconds
+[2024-05-20T08:51:13.403+0000] {processor.py:161} INFO - Started process (PID=2525) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:51:13.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:51:13.406+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:51:13.405+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:51:13.429+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:51:13.449+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:51:13.449+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:51:13.474+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:51:13.474+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:51:13.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.100 seconds
+[2024-05-20T08:51:44.332+0000] {processor.py:161} INFO - Started process (PID=2587) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:51:44.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:51:44.334+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:51:44.334+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:51:44.348+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:51:44.366+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:51:44.365+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:51:44.388+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:51:44.387+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:51:44.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.082 seconds
+[2024-05-20T08:52:14.530+0000] {processor.py:161} INFO - Started process (PID=2649) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:52:14.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:52:14.533+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:52:14.533+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:52:14.551+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:52:14.572+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:52:14.572+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:52:14.601+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:52:14.601+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:52:14.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.106 seconds
+[2024-05-20T08:52:44.704+0000] {processor.py:161} INFO - Started process (PID=2711) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:52:44.705+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:52:44.705+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:52:44.705+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:52:44.723+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:52:44.746+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:52:44.746+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:52:44.775+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:52:44.774+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:52:44.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.103 seconds
+[2024-05-20T08:53:14.922+0000] {processor.py:161} INFO - Started process (PID=2773) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:53:14.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:53:14.927+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:53:14.926+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:53:14.952+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:53:14.994+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:53:14.993+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:53:15.085+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:53:15.085+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:53:15.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.233 seconds
+[2024-05-20T08:53:45.383+0000] {processor.py:161} INFO - Started process (PID=2839) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:53:45.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:53:45.386+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:53:45.385+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:53:45.404+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:53:45.427+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:53:45.426+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:53:45.451+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:53:45.450+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:53:45.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.097 seconds
+[2024-05-20T08:54:16.316+0000] {processor.py:161} INFO - Started process (PID=2901) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:54:16.317+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:54:16.318+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:54:16.318+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:54:16.333+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:54:16.352+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:54:16.351+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:54:16.374+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:54:16.374+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:54:16.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.085 seconds
+[2024-05-20T08:54:46.959+0000] {processor.py:161} INFO - Started process (PID=2963) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:54:46.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:54:46.961+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:54:46.961+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:54:46.978+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:54:46.996+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:54:46.996+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:54:47.021+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:54:47.021+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:54:47.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.089 seconds
+[2024-05-20T08:55:17.221+0000] {processor.py:161} INFO - Started process (PID=3029) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:55:17.222+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:55:17.224+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:55:17.223+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:55:17.248+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:55:17.273+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:55:17.272+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:55:17.294+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:55:17.294+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:55:17.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.107 seconds
+[2024-05-20T08:55:48.075+0000] {processor.py:161} INFO - Started process (PID=3091) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:55:48.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:55:48.076+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:55:48.076+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:55:48.093+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:55:48.116+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:55:48.115+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:55:48.142+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:55:48.142+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:55:48.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.099 seconds
+[2024-05-20T08:56:18.975+0000] {processor.py:161} INFO - Started process (PID=3153) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:56:18.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:56:18.977+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:56:18.976+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:56:18.998+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:56:19.024+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:56:19.024+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:56:19.051+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:56:19.051+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:56:19.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.105 seconds
+[2024-05-20T08:56:49.739+0000] {processor.py:161} INFO - Started process (PID=3215) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:56:49.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:56:49.742+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:56:49.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:56:49.763+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:56:49.785+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:56:49.784+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:56:49.811+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:56:49.811+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:56:49.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.100 seconds
+[2024-05-20T08:57:20.445+0000] {processor.py:161} INFO - Started process (PID=3277) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:57:20.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:57:20.447+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:57:20.447+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:57:20.463+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:57:20.482+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:57:20.481+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:57:20.503+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:57:20.503+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:57:20.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.089 seconds
+[2024-05-20T08:57:51.315+0000] {processor.py:161} INFO - Started process (PID=3339) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:57:51.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:57:51.317+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:57:51.317+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:57:51.332+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:57:51.351+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:57:51.350+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:57:51.374+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:57:51.374+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:57:51.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.087 seconds
+[2024-05-20T08:58:22.155+0000] {processor.py:161} INFO - Started process (PID=3406) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:58:22.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:58:22.157+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:58:22.157+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:58:22.178+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:58:22.205+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:58:22.205+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:58:22.232+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:58:22.232+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:58:22.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.108 seconds
+[2024-05-20T08:58:52.989+0000] {processor.py:161} INFO - Started process (PID=3467) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:58:52.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:58:52.994+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:58:52.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:58:53.054+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:58:53.109+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:58:53.108+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:58:53.189+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:58:53.185+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:58:53.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.263 seconds
+[2024-05-20T08:59:23.776+0000] {processor.py:161} INFO - Started process (PID=3528) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:59:23.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:59:23.778+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:59:23.778+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:59:23.794+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:59:23.813+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:59:23.813+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:59:23.837+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:59:23.836+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:59:23.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.090 seconds
+[2024-05-20T08:59:54.489+0000] {processor.py:161} INFO - Started process (PID=3589) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:59:54.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T08:59:54.494+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:59:54.492+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:59:54.530+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T08:59:54.557+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:59:54.557+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:59:54.593+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:59:54.593+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T08:59:54.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.138 seconds
+[2024-05-20T09:00:24.679+0000] {processor.py:161} INFO - Started process (PID=3651) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:00:24.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T09:00:24.681+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:00:24.681+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:00:24.697+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:00:24.717+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:00:24.716+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:00:24.741+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:00:24.741+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T09:00:24.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.091 seconds
+[2024-05-20T09:00:55.446+0000] {processor.py:161} INFO - Started process (PID=3713) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:00:55.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T09:00:55.448+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:00:55.448+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:00:55.470+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:00:55.495+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:00:55.495+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:00:55.526+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:00:55.526+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T09:00:55.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.115 seconds
+[2024-05-20T09:01:25.626+0000] {processor.py:161} INFO - Started process (PID=3775) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:01:25.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T09:01:25.629+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:01:25.628+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:01:25.652+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:01:25.675+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:01:25.675+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:01:25.704+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:01:25.703+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T09:01:25.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.107 seconds
+[2024-05-20T09:01:59.367+0000] {processor.py:161} INFO - Started process (PID=3835) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:01:59.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T09:01:59.371+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:01:59.370+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:01:59.404+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:01:59.446+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:01:59.446+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:01:59.493+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:01:59.492+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T09:01:59.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.179 seconds
+[2024-05-20T09:02:29.792+0000] {processor.py:161} INFO - Started process (PID=3897) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:02:29.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T09:02:29.796+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:02:29.796+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:02:29.833+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:02:29.869+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:02:29.869+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:02:29.918+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:02:29.917+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T09:02:29.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.172 seconds
+[2024-05-20T09:03:00.016+0000] {processor.py:161} INFO - Started process (PID=3959) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:03:00.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T09:03:00.021+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:03:00.020+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:03:00.055+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:03:00.082+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:03:00.081+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:03:00.121+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:03:00.120+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T09:03:00.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.144 seconds
+[2024-05-20T09:03:30.445+0000] {processor.py:161} INFO - Started process (PID=4021) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:03:30.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T09:03:30.448+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:03:30.448+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:03:30.479+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:03:30.512+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:03:30.511+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:03:30.547+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:03:30.547+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T09:03:30.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.142 seconds
+[2024-05-20T09:04:00.770+0000] {processor.py:161} INFO - Started process (PID=4083) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:04:00.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T09:04:00.772+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:04:00.772+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:04:00.791+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:04:00.816+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:04:00.815+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:04:00.846+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:04:00.846+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T09:04:00.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.113 seconds
+[2024-05-20T09:04:30.998+0000] {processor.py:161} INFO - Started process (PID=4145) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:04:31.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T09:04:31.001+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:04:31.001+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:04:31.024+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:04:31.048+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:04:31.048+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:04:31.077+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:04:31.077+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T09:04:31.105+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.114 seconds
+[2024-05-20T09:05:01.445+0000] {processor.py:161} INFO - Started process (PID=4207) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:05:01.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T09:05:01.449+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:05:01.448+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:05:01.479+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:05:01.508+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:05:01.507+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:05:01.537+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:05:01.536+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T09:05:01.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.128 seconds
+[2024-05-20T09:05:31.690+0000] {processor.py:161} INFO - Started process (PID=4269) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:05:31.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T09:05:31.693+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:05:31.693+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:05:31.728+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:05:31.756+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:05:31.756+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:05:31.788+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:05:31.788+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T09:05:31.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.141 seconds
+[2024-05-20T09:11:51.882+0000] {processor.py:161} INFO - Started process (PID=4298) to work on /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:11:51.884+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prioritas_2.py for tasks to queue
+[2024-05-20T09:11:51.886+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:11:51.885+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:11:51.949+0000] {processor.py:840} INFO - DAG(s) 'fetch_api_data_and_write_to_files' retrieved from /opt/airflow/dags/prioritas_2.py
+[2024-05-20T09:11:52.003+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:11:52.002+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:11:52.078+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:11:52.077+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_api_data_and_write_to_files to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-20T09:11:52.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prioritas_2.py took 0.273 seconds

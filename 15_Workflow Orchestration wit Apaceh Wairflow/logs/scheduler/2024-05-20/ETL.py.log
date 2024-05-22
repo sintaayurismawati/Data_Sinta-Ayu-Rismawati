@@ -1,0 +1,227 @@
+[2024-05-20T08:40:11.182+0000] {processor.py:161} INFO - Started process (PID=1187) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:11.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:40:11.185+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:11.184+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:11.203+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:11.198+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 2, in <module>
+    from airflow.operators import DummyOperator
+ImportError: cannot import name 'DummyOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-05-20T08:40:11.208+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:11.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.053 seconds
+[2024-05-20T08:40:16.849+0000] {processor.py:161} INFO - Started process (PID=1197) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:16.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:40:16.852+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:16.852+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:16.871+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:16.866+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 2, in <module>
+    from airflow.operators import DummyOperator
+ImportError: cannot import name 'DummyOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-05-20T08:40:16.873+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:16.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.049 seconds
+[2024-05-20T08:40:18.893+0000] {processor.py:161} INFO - Started process (PID=1198) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:18.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:40:18.896+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:18.896+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:18.921+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:18.915+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 2, in <module>
+    from airflow.operators import DummyOperator
+ImportError: cannot import name 'DummyOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-05-20T08:40:18.924+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:18.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.059 seconds
+[2024-05-20T08:40:21.984+0000] {processor.py:161} INFO - Started process (PID=1205) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:21.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:40:21.987+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:21.987+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:22.009+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:22.005+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 2, in <module>
+    from airflow.operators import DummyOperator
+ImportError: cannot import name 'DummyOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-05-20T08:40:22.012+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:22.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.059 seconds
+[2024-05-20T08:40:52.560+0000] {processor.py:161} INFO - Started process (PID=1268) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:52.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:40:52.565+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:52.564+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:52.582+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:40:52.576+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 2, in <module>
+    from airflow.operators import DummyOperator
+ImportError: cannot import name 'DummyOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-05-20T08:40:52.586+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:40:52.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.056 seconds
+[2024-05-20T08:41:23.033+0000] {processor.py:161} INFO - Started process (PID=1331) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:41:23.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:41:23.035+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:41:23.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:41:23.049+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:41:23.045+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 2, in <module>
+    from airflow.operators import DummyOperator
+ImportError: cannot import name 'DummyOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-05-20T08:41:23.051+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:41:23.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.047 seconds
+[2024-05-20T08:41:53.712+0000] {processor.py:161} INFO - Started process (PID=1393) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:41:53.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:41:53.714+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:41:53.714+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:41:53.726+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:41:53.721+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 2, in <module>
+    from airflow.operators import DummyOperator
+ImportError: cannot import name 'DummyOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-05-20T08:41:53.729+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:41:53.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.046 seconds
+[2024-05-20T08:45:11.559+0000] {processor.py:161} INFO - Started process (PID=1795) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:11.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:45:11.562+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:11.561+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:11.589+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:11.582+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 2, in <module>
+    from airflow.operators import DummyOperator
+ImportError: cannot import name 'DummyOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/__init__.py)
+[2024-05-20T08:45:11.593+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:11.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.072 seconds
+[2024-05-20T08:45:12.140+0000] {processor.py:161} INFO - Started process (PID=1801) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:12.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:45:12.142+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:12.142+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:12.169+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:12.163+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 4, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-05-20T08:45:12.171+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:12.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.062 seconds
+[2024-05-20T08:45:42.321+0000] {processor.py:161} INFO - Started process (PID=1863) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:42.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:45:42.323+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:42.322+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:42.334+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:42.331+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 4, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-05-20T08:45:42.335+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:42.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.039 seconds
+[2024-05-20T08:45:55.978+0000] {processor.py:161} INFO - Started process (PID=1885) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:55.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:45:55.981+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:55.981+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:55.995+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:55.993+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 32
+    ',
+    ^
+SyntaxError: unterminated string literal (detected at line 32)
+[2024-05-20T08:45:55.996+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:56.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.045 seconds
+[2024-05-20T08:45:59.027+0000] {processor.py:161} INFO - Started process (PID=1886) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:59.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:45:59.036+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:59.036+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:59.076+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:45:59.069+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 4, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-05-20T08:45:59.082+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:45:59.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.128 seconds
+[2024-05-20T08:46:00.656+0000] {processor.py:161} INFO - Started process (PID=1892) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:46:00.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:46:00.659+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:00.658+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:46:00.690+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:00.685+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 4, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-05-20T08:46:00.692+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:46:00.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.069 seconds
+[2024-05-20T08:46:04.179+0000] {processor.py:161} INFO - Started process (PID=1901) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:46:04.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:46:04.181+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:04.181+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:46:04.204+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:04.201+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 4, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-05-20T08:46:04.205+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:46:04.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.054 seconds
+[2024-05-20T08:46:06.492+0000] {processor.py:161} INFO - Started process (PID=1907) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:46:06.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:46:06.494+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:06.494+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:46:06.516+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:06.513+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 4, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-05-20T08:46:06.517+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:46:06.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.050 seconds
+[2024-05-20T08:46:37.036+0000] {processor.py:161} INFO - Started process (PID=1969) to work on /opt/airflow/dags/ETL.py
+[2024-05-20T08:46:37.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL.py for tasks to queue
+[2024-05-20T08:46:37.038+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:37.038+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL.py
+[2024-05-20T08:46:37.055+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:46:37.052+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL.py", line 4, in <module>
+    import papermill as pm
+ModuleNotFoundError: No module named 'papermill'
+[2024-05-20T08:46:37.056+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL.py
+[2024-05-20T08:46:37.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL.py took 0.048 seconds

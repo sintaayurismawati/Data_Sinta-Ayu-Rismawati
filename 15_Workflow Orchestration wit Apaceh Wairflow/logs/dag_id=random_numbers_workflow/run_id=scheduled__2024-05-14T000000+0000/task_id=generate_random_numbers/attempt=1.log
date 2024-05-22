@@ -1,0 +1,21 @@
+[2024-05-20T08:30:47.731+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-20T08:30:47.852+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_numbers_workflow.generate_random_numbers scheduled__2024-05-14T00:00:00+00:00 [queued]>
+[2024-05-20T08:30:47.935+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_numbers_workflow.generate_random_numbers scheduled__2024-05-14T00:00:00+00:00 [queued]>
+[2024-05-20T08:30:47.962+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2024-05-20T08:30:48.059+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): generate_random_numbers> on 2024-05-14 00:00:00+00:00
+[2024-05-20T08:30:48.100+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'random_numbers_workflow', 'generate_random_numbers', 'scheduled__2024-05-14T00:00:00+00:00', '--job-id', '1583', '--raw', '--subdir', 'DAGS_FOLDER/prioritas_1(2).py', '--cfg-path', '/tmp/tmpv4cb7v74']
+[2024-05-20T08:30:48.123+0000] {standard_task_runner.py:91} INFO - Job 1583: Subtask generate_random_numbers
+[2024-05-20T08:30:48.130+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=55) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-20T08:30:48.158+0000] {standard_task_runner.py:63} INFO - Started process 75 to run task
+[2024-05-20T08:30:48.534+0000] {task_command.py:426} INFO - Running <TaskInstance: random_numbers_workflow.generate_random_numbers scheduled__2024-05-14T00:00:00+00:00 [running]> on host 0391a550332e
+[2024-05-20T08:30:51.554+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sinta' AIRFLOW_CTX_DAG_ID='random_numbers_workflow' AIRFLOW_CTX_TASK_ID='generate_random_numbers' AIRFLOW_CTX_EXECUTION_DATE='2024-05-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-14T00:00:00+00:00'
+[2024-05-20T08:30:51.575+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-20T08:30:51.831+0000] {prioritas_1(2).py:17} INFO - Generated numbers: [35, 16, 1, 17, 42, 26, 41, 48, 8, 17, 5, 17, 10, 21, 32, 26, 41, 10, 39, 8, 7, 50, 26, 21, 50]
+[2024-05-20T08:30:51.839+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-20T08:30:51.890+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-20T08:30:52.114+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=random_numbers_workflow, task_id=generate_random_numbers, run_id=scheduled__2024-05-14T00:00:00+00:00, execution_date=20240514T000000, start_date=20240520T083047, end_date=20240520T083052
+[2024-05-20T08:30:53.120+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-20T08:30:53.865+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-05-20T08:30:54.869+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
